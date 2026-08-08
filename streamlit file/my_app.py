@@ -47,8 +47,8 @@ import joblib
 # LOAD MODEL AND SCALER
 # ==========================================================
 
-knn = joblib.load(streamlit file/"KNN_model.pkl")
-ss = joblib.load(streamlit file/"StandardScaler.pkl")
+knn = joblib.load("streamlit file/KNN_model.pkl")
+ss = joblib.load("streamlit file/StandardScaler.pkl")
 
 
 # ==========================================================
