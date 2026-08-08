@@ -46,13 +46,9 @@ import joblib
 # LOAD MODEL AND SCALER
 # ==========================================================
 
-knn = joblib.load(
-    r"C:\Users\yashk\OneDrive\Desktop\Naman ML\Streamelit\P1\saved model\KNN_model.pkl"
-)
+knn = joblib.load("../saved model/KNN_model.pkl")
 
-ss = joblib.load(
-    r"C:\Users\yashk\OneDrive\Desktop\Naman ML\Streamelit\P1\saved model\StandardScaler.pkl"
-)
+ss = joblib.load("../saved model/StandardScaler.pkl")
 
 
 # ==========================================================
