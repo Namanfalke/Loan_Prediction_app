@@ -46,9 +46,9 @@ import joblib
 # LOAD MODEL AND SCALER
 # ==========================================================
 
-knn = joblib.load("../saved model/KNN_model.pkl")
+knn = joblib.load("KNN_model.pkl")
 
-ss = joblib.load("../saved model/StandardScaler.pkl")
+ss = joblib.load("StandardScaler.pkl")
 
 
 # ==========================================================
